@@ -5,7 +5,6 @@ import os
 app = Flask(__name__)
 
 # Set your Replicate API token here
-os.environ["REPLICATE_API_TOKEN"] = "export REPLICATE_API_TOKEN=r8_U6WgJKEui5JIFsGCaOZKmQh7iSeH50121R96t"
 
 # Initialize model
 model = replicate.models.get("microsoft/beit-large-patch16-224-pt22k-ft22k")
